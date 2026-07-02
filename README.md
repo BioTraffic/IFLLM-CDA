@@ -1,4 +1,4 @@
-# PIFLLM: Prediction Instruction Fine-Tuned Large Language Model for Predicting CircRNA-Disease Associations
+# PIFLLM-CDA: Prediction Instruction Fine-Tuned Large Language Model for Predicting CircRNA-Disease Associations
 
 PIFLLM is an end-to-end framework for predicting circRNA-disease associations. The project starts from raw Excel files, builds reproducible circRNA and disease node mappings, learns graph structural representations with LightGCN, injects these graph features into prediction-oriented instructions, and finally fine-tunes a large language model with LoRA for binary association prediction.
 
